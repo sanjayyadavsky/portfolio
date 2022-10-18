@@ -39,9 +39,14 @@
     display: flex;
 }
 .menu li{
-    padding: 10px;
+    padding: 10px 15px;
     margin: 15px 0;
 }
 .logo{
     margin: 25px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.logo-span{
+    color: rgb(24, 156, 176);
 }
