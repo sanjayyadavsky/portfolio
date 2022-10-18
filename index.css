@@ -50,6 +50,7 @@
 .logo-span{
     color: rgb(24, 156, 176);
 }
+
 .personal-info{
     width:60%;
     margin: 0 auto;
@@ -60,7 +61,7 @@
 img{
     height: 300px;
 }
-.personal-info>span{
+.personal-info>div{
     padding: 20px;
     padding: 20px 40px;
     font-family: 'Roboto', sans-serif;
