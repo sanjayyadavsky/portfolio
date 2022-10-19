@@ -56,15 +56,39 @@
     margin: 0 auto;
     display: flex;
     margin-top: 200px;
-    background-color: rgba(0, 0, 0, 0.148);
+    
+}
+.detial-info{
+    background-color: rgba(0, 0, 0, 0.233);
+    margin-left: 20px;
+    text-align:left;
+    padding: 20px;
+    width: 50%;
 }
 img{
     height: 300px;
 }
-.personal-info>div{
+.personal-info>span{
     padding: 20px;
     padding: 20px 40px;
     font-family: 'Roboto', sans-serif;
     width: 400px;
     height: 300px;
+}
+.social{
+    position: relative;
+    justify-content: center;
+    font-size: 30px;
+    top: 50%;
+    background-color: #000000a8;
+    display: flex;
+    border-radius: 5px;
+    border: 0.5px solid rgb(255, 255, 255);
+}
+.social li{
+    padding: 15px;
+}
+.fab{
+    font-weight: 400;
+    color: rgb(255, 255, 255);
 }
