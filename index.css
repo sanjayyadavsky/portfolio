@@ -103,7 +103,7 @@ img{
   }
 
 .slideshow-container {
-  max-width: 1000px;
+    width: 90%;
   position: relative;
   margin: auto;
  
@@ -127,8 +127,15 @@ img{
     animation-name: fade;
     animation-duration: 3s;
     /* color: #000000; */
+    margin-top: 10px;
+
   }
- 
+ .slideshow-container{
+    margin-top: 10px;
+    border: 1.5px solid black;
+    padding: 30px 10px;
+    border-radius: 5px;
+ }
   .heading-f1-slider{
     margin-top:50px;
     color: #000000;
@@ -146,4 +153,31 @@ img{
     height: 500px;
     width: auto;
     background-color: white;
+  }
+  .skill-logo >span >.fab{
+    color: #000000;
+    height: 75px;
+  }
+  .skill-logo{
+    font-size: 100px;
+    width: 100px;
+    color: #000000;
+  }
+  .skill-item > div > h1{
+    color: #000000;
+  }
+  .skill-item{
+    display: flex;
+    margin: 50px;
+  }
+  .skill-container{
+    display: flex;
+  }
+
+  /* footer */
+  .footer{
+    background-color: #000000;
+  }
+  .footer-fab{
+    font-size: 40px;
   }
