@@ -3,7 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    color: rgb(252, 250, 250);
+    /* color: rgb(252, 250, 250); */
     list-style: none;
     text-decoration: none;
 
@@ -34,6 +34,9 @@
 
 
 }
+.logo > a:last-child{
+    color: white;
+}
 .menu{
     text-decoration: none;
     display: flex;
@@ -41,6 +44,9 @@
 .menu li{
     padding: 10px 15px;
     margin: 15px 0;
+}
+.menu li a {
+    color: #ffffff;
 }
 .logo{
     margin: 25px 0;
@@ -65,6 +71,11 @@
     padding: 20px;
     width: 50%;
 }
+.detial-info span{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 0.1cm;
+}
 img{
     height: 300px;
 }
@@ -79,7 +90,7 @@ img{
     position: relative;
     justify-content: center;
     font-size: 30px;
-    top: 50%;
+    top: 45%;
     background-color: #000000a8;
     display: flex;
     border-radius: 5px;
@@ -147,7 +158,26 @@ img{
   .second-slider{
     height: 500px;
     width: auto;
-    background-color: aqua;
+    background-color: rgb(87, 99, 99);
+  }
+  .hedline-skil{
+    position: relative;
+    text-align: center;
+    margin-top: 25px;
+    color: rgb(43, 98, 98);
+   
+   
+  }
+  .hedline-skil > span{
+    background-color: white;
+  }
+  .hr-line{
+    height: 2px;
+    width: 100%;
+    position: relative;
+    top: -16px;
+    background-color: #000;
+    z-index: -1;
   }
   .second-slider1{
     height: 500px;
@@ -167,11 +197,14 @@ img{
     color: #000000;
   }
   .skill-item{
-    display: flex;
+    /* display: flex; */
     margin: 50px;
+    margin-right: 25px;
   }
   .skill-container{
     display: flex;
+    align-content: stretch;
+    justify-content: center;
   }
 
   /* footer */
@@ -181,3 +214,14 @@ img{
   .footer-fab{
     font-size: 40px;
   }
+  .location{
+   font-size: 30px;
+   color: #ffffff;
+  }
+.address h2{
+    color: white;
+}
+.location{
+    font-size: 10px;
+    color: #ffffff;
+}
