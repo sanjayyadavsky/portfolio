@@ -228,3 +228,19 @@ img{
 .footer-loa-detial a{
     color: white ;
 }
+.container-footer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.footer-loa-detial > iframe{
+    width: 375px;
+    height: 375px;
+}
+.general-detial{
+    width: 500px;
+    margin: 0 auto;
+}
+.container-footer > div{
+    width: 30.33%;
+}
