@@ -12,6 +12,9 @@
     width: 90%;
     margin: 0 auto;
 }
+.text-color{
+  color: white;
+}
 .nav-container{
     background-image: url("pexels-negative-space-160107.jpeg");
     height: 800px;
@@ -52,6 +55,7 @@
     margin: 25px 0;
     font-size: 20px;
     font-weight: 500;
+    padding-top: 10px;
 }
 .logo-span{
     color: rgb(24, 156, 176);
@@ -243,4 +247,51 @@ img{
 }
 .container-footer > div{
     width: 30.33%;
+}
+.Quick-links > .menu {
+  flex-direction: column;
+}
+.Quick-links > .menu > li  {
+  padding: 0px;
+}
+.contact-us > li{
+  margin-top: 15px;
+}
+.contact-us > li > a {
+  
+}
+.fab > span {
+  font-size: 20px;
+  position: absolute;
+  padding: 5px 0px 5px 10px;
+  
+}
+.sms-container{
+  display: none; /*to be removed this property when the proble of message is solved  */
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  height: 310px;
+}
+.textarea{
+ width: 98%; 
+ height: 175px;
+  margin-top: 30px;
+  background-color: white;
+  color: #000;
+  
+}
+.mail{
+  padding: 5px 0 5px 0;
+}
+.copyright{
+  color: #fff;
+  height: 50px;
+  /* width: 100%; */
+  padding: 25px;
+  background-color: #161515f0;
+  text-align: center;
+  margin-top: 20px;
+  border-top: .5px solid #FFFFFF;
 }
