@@ -160,17 +160,13 @@ img{
     background-color: #b2e9e285;
   }
   .second-slider{
-    height: 500px;
     width: auto;
-    background-color: rgb(87, 99, 99);
   }
   .hedline-skil{
     position: relative;
     text-align: center;
     margin-top: 25px;
     color: rgb(43, 98, 98);
-   
-   
   }
   .hedline-skil > span{
     background-color: white;
@@ -294,4 +290,21 @@ img{
   text-align: center;
   margin-top: 20px;
   border-top: .5px solid #FFFFFF;
+}
+
+
+/* css for second slider*/
+.control-button {
+  display: flex;
+  /* justify-items: center; */
+  justify-content: center;
+}
+.control-button > button{
+  padding: 5px 10px;
+  margin: 5px;
+}
+.myslider{
+  height: 600px;
+  width: 100%;
+  
 }
